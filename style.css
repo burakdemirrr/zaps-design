@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 50px;
+}
+header .logo{
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.menu-items ul{
+    display: flex;
+    align-items: center;
+    gap:35px;
+    list-style: none;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top span{
+    font-size:23vw;
+    letter-spacing: 30px;
+    font-weight: bold;
+    color:rgb(25, 25, 90);
+}
+
+.bt{
+    display: flex;
+    justify-content:center;
+    width:56%;    
+    color:rgb(42, 42, 123);
+    font-weight: 600;
+    gap:130px;
+}
+img{
+    width:250px;
+    height:250px;
+}
+.bt .inside{
+    display: flex;
+    gap:50px;
+}
